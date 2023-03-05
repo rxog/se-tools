@@ -1,0 +1,47 @@
+{
+  "name": "se.tools",
+  "version": "1.0.0",
+  "description": "Um conjunto de ferramentas projetado para tornar a vida dos desenvolvedores de widgets do StreamElements mais fácil.",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xogumon/se.tools.git"
+  },
+  "keywords": [
+    "streamelements",
+    "typescript",
+    "javascript",
+    "tools"
+  ],
+  "author": "Ronis Xogum <ronis@xog.one>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xogumon/se.tools/issues"
+  },
+  "homepage": "https://github.com/xogumon/se.tools#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "tsify": "^5.0.4",
+    "typescript": "^4.9.5",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "overrides": {
+    "chokidar": ">=3.5.3",
+    "vinyl-fs": ">=3.0.3",
+    "glob-stream": ">=7.0.0"
+  }
+}

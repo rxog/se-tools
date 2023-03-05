@@ -1,0 +1,22 @@
+import { EventList } from "./Interfaces";
+export const events: EventList[] = [
+  { name: "Subscriber", listener: "subscriber-latest" },
+  { name: "Resub", listener: "subscriber-latest" },
+  { name: "SubGift", listener: "subscriber-latest" },
+  { name: "CommunityGift", listener: "subscriber-latest" },
+  { name: "SubBomb", listener: "subscriber-latest" },
+  { name: "SubBombComplete", listener: "subscriber-latest" },
+  { name: "Tip", listener: "tip-latest" },
+  { name: "Cheer", listener: "cheer-latest" },
+  { name: "Host", listener: "host-latest" },
+  { name: "Raid", listener: "raid-latest" },
+  { name: "Follow", listener: "follower-latest" },
+  { name: "Message", listener: "message" },
+  { name: "DeleteMessage", listener: "delete-message" },
+  { name: "DeleteMessages", listener: "delete-messages" },
+  { name: "EventSkip", listener: "event:skip" },
+  { name: "BotCounter", listener: "bot:counter" },
+  { name: "WidgetButton", listener: "event:test" },
+  { name: "KVStoreUpdate", listener: "kvstore:update" },
+  { name: "ToggleSound", listener: "alertService:toggleSound" },
+];
